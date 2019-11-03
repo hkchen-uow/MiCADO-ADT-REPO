@@ -1,3 +1,13 @@
+# Metadata
+# ADT_Type: Prototypes
+# APP_ID:02
+# APP_Name:High Performance Simulation Analytics
+# APP_Keywords: CloudSigma, Frontend, Occopus
+# APP_Deployment: VM, Docker Container
+# APP_Version: 1
+# APP_Policies: Scaling
+# POLICY_keywords: deadline
+
 # Proposed ADT for a linux-based frontend (not yet implemented) with the
 # Windows-based workers used in other Saker use cases
 

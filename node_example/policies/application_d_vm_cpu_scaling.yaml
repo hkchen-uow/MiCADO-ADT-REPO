@@ -1,3 +1,9 @@
+# METADATA
+# NE_Type: policies, scaling
+# NE_Name: application d vm cpu scaling
+# NE_Keywords: VM, CPU
+# NE_Version: 1
+
 tosca_definitions_version: tosca_simple_yaml_1_0
 
 imports:
