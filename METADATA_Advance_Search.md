@@ -9,8 +9,14 @@ These templates describe the application topology and policies for COLA use-case
 There are mainly two types of ADT:
 * *prototypes/*
 
-    Live application's ADTs are kept here.The ADT name standard format is constructed using the following Metadata:
+   Live application's ADTs are kept here.The ADT name standard format is constructed using the following Metadata:
+
+* *tests-demos/*
     
+   Tests/Demos ADTs are kept here
+    
+ADT METADATA:
+
     * *ADT_Type*: The tpye of ADT, e.g. prototypes, tests/demos
     * *APP_ID*: Unique ID for the APP.
     * *APP_Name*: Application name.
@@ -20,112 +26,103 @@ There are mainly two types of ADT:
     * *APP_Policies*: List of policy types uses in the ADT, e.g. Monitoring, Scaling, Network, Security
     * *POLICY_Keywords*: List of keywords related to the policies. 
      
-* *tests-demos/*
 
-    Tests/Demos ADTs are kept here
 
 ### node_example/
 ###### node_example definitions are kept here
 There are three types of node_example:
 * *applications/*
-    
-   The *application* node example name standard format is constructed using the following Metadata:
-   
-    * *APP_ID*: Unique ID for the APP.
-    * *APP_Name*: Application name.
-    * *APP_Keywords*: List of application keywords
-    * *APP_Version*: Application version.
-    
+
+   The *application* node examples are kept here
+
 * *Occopus/*
 
-    The *Occopus* node example name standard format is constructed using the following Metadata:
+   The *Occopus* node examples are kept here
     
-    * *PROVIDER_NAME*: The name of the cloud provider.
-
-* *policies/*
+* *policies/* 
+   
+   The *policies* node example are kept here
+   
+Node Example Metadata
     
-    The *policies* node example name standard format is constructed using the following Metadata:
-    
-    * *APP_ID*: Unique ID for the APP.
-    * *APP_Name*: Application name.
-    * *APP_Deployment*: The deployment type of the application, e.g. VM or container
-    * *Policy_Type*: Type of the policy, e.g. Monitoring, Scaling, Network and Secret.
-    * *Policy_Name*: The name of the policy.
-    * *Policy_Keywords*: List of policy keywords, e.g. Basic, CPU, Memory, Deadline, Optimizer ……
-    * *Policy_Version*: Policy version.
+    * *NE_Type*: Type of the Node Example,e.g. application, occopus, policies. Sub-type,e.g. Monitoring, Scaling, Network and Secret, 
+    * *NE_Name*: The name of the node example.
+    * *NE_Keywords*: List of keywords for search, e.g. Basic, CPU, Memory, Deadline, Optimizer ……
+    * *NE_Version*: Node example version.
     
 ------------
 #### Use Cases
 
-Github provide a simple text search function (https://github.com/hkchen-uow/tosca/find/METADATA), 
+Github provide an advance search function 
+(https://github.com/search?q=ADT+repo%3Ahkchen-uow%2FMiCADO-ADT-REPO&type=Code&ref=advsearch), 
 which allow ADT developers to search ADT by queries. Here are some typical use cases and relevant queries:
 
 
 1. I would like to find all the prototype ADT.
     
     ```
-    ADT/prototypes
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=in:path+ADT/prototypes/
     ```
 2.	I would like to find all the test/demo ADT.
 
     ```
-    ADT/tests-demos
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=in:path+ADT/tests-demos/
     ```
     
 3.	How can I find the ADT for an application named “repast”?
 
     ```
-    ADT/repast
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=APP_Name&repast
     ```
-4.	How can I find the ADT with a keyword “cloudbroker”?
+4.	How can I find the ADT with a keyword “azure”?
 
     ```
-    ADT/cloudbroker
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=APP_Keywords&Azure
     ```
 5.	How can I find the ADT for an application named “repast” with a “prototype” type?
     
     ```
-    ADT/prototypes/repast
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=ADT_Type&Prototypes&APP_Name&repast
     ```
 6.	I would like to find some application examples to construct an ADT.
     
     ```
-    node_example/applications
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=in:path+node_example/applications/
     ```
     
-7.	How can I find the application examples for application named “application_example_a”?
+7.	How can I find the application examples for application named “application example a”?
     
     ```
-    node_example/applications/application_example_a
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=NE_Name%26application+example+a
     ```
     
 8.	I would like to find some Occopus examples to construct an ADT.
     
     ```
-    node_example/Occopus
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=in:path+node_example/Occopus/
     ```
     
 9.	How can I find the Occopus examples for deployment in “ec2”?
     
     ```
-    node_example/Occopus/ec2
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=NE_Keywords%26ec2
     ```
     
 10.	I would like to find some policy examples to construct an ADT.
     
     ```
-    node_example/policies
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=in:path+node_example/policies/
     ```
     
-11.	How can I find all the policy examples for application named “application_a”?
+11.	How can I find all the policy examples for application named “application example a”?
     
     ```
-    node_example/policies/application_a
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=NE_NAME%26application%2Bexample%2Ba+in%3Apath%2Bnode_example%2Fpolicies%2F
     ```
 which is deployed as VM/container
 
-    node_example/policies/application_a_vm
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=NE_Type%26application%26application+example+a%26vm
 
 with “cpu_scaling”
 
-    node_example/policies/application_a_vm_cpu_scaling
+    https://github.com/hkchen-uow/MiCADO-ADT-REPO/search?q=NE_Type%26application%26application+example+a%26vm%26cpu+scaling
