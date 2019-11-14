@@ -9,7 +9,7 @@ These templates describe the application topology and policies for COLA use-case
 There are mainly two types of ADT:
 * *prototypes/*
 
-   Live application's ADTs are kept here.The ADT name standard format is constructed using the following Metadata:
+   Live application's ADTs are kept here.
 
 * *tests-demos/*
     
@@ -17,13 +17,22 @@ There are mainly two types of ADT:
     
 ADT METADATA:
 
-    * *ADT_Type*: The tpye of ADT, e.g. prototypes, tests/demos
-    * *APP_ID*: Unique ID for the APP.
+    * *ADT_Status*: Is the template ready to be submitted to the toscasubmitter component?, 
+                    1. True
+                    2. False.
+    * *ADT_Type*: The type of ADT, 
+                  1. Prototypes : Live application's ADTs are kept here. The ADT is ready to be submitted to the TOSCASubmitter.
+                  2. Tests/demos : Tests/Demos ADTs are kept here, please check the ADT_Status.
+    * *ADT_Description*: ADT description.
     * *APP_Name*: Application name.
     * *APP_Keywords*: List of application keywords.
     * *APP_Deployment*: List of deploment methods use in the ADT, e.g. VM, Docker Container
     * *APP_Version*: Application version.
-    * *APP_Policies*: List of policy types uses in the ADT, e.g. Monitoring, Scaling, Network, Security
+    * *APP_Policies*: List of policy types uses in the ADT:
+                      1. Monitoring
+                      2. Scaling
+                      3. Network
+                      4. Security
     * *POLICY_Keywords*: List of keywords related to the policies. 
      
 
@@ -34,7 +43,7 @@ There are three types of node_example:
 * *applications/*
 
    The *application* node examples are kept here
-
+   
 * *Occopus/*
 
    The *Occopus* node examples are kept here

@@ -1,0 +1,74 @@
+# METADATA
+# NE_Type: policies, scaling
+# NE_Name: application s VM schedule scaling
+# NE_Keywords: VM, CPU, Scheduling, Spikes
+# NE_Version: 1
+
+tosca_definitions_version: tosca_simple_yaml_1_0
+
+imports:
+  - https://raw.githubusercontent.com/micado-scale/tosca/v0.x.x/micado_types.yaml
+
+repositories:
+  docker_hub: https://hub.docker.com/
+
+topology_template:
+  node_templates:
+    YOUR_APPLICATION_NODE_TYPE:
+      ###############################################################################################
+      ### Description of your application node you can find example in the applications directory ###
+      ###############################################################################################
+  policies:
+    - scalability:
+        type: tosca.policies.Scaling.MiCADO.VirtualMachine.CPU
+        targets: [ YOUR_APPLICATION_NODE_TYPE ]
+        properties:
+          constants:
+            NODE_NAME: YOUR_NODE_NAME
+            NODE_TH_MAX: '60' # Threshold max to be reach before scale up the VMs
+            NODE_TH_MIN: '25' # Threshold min to be reach before scale down the VMs
+            spikes: [ {'bt':'15-10-2019 15:10:00','et':'15-10-2019 15:30:00','min':3,'max':10},
+              {'bt':'15-10-2019 15:40:00','et':'15-10-2019 16:00:00','min':5,'max':10} ]
+              # spikes contains a list of schedules, where each scedule consist of begin time (bt),
+              # end time(et), min number of VMs (min), and max number of VMs (max). 
+              # The elastic policy in a particular time of the schedule will liaise 
+              # with the corresponding min/max limits.
+          min_instances: 1 # Hard min number of VMs. MiCADO will liaise at all the time.
+          max_instances: 10 # Hard max number of VMs. MiCADO will liaise at all the time.
+
+policy_types:
+  tosca.policies.Scaling.MiCADO.VirtualMachine.CPU:
+    derived_from: tosca.policies.Scaling.MiCADO
+    description: base MiCADO policy defining data sources, constants, queries, alerts, limits and rules
+    properties:
+      alerts:
+        type: list
+        description: pre-define alerts for VM CPU
+        default:
+        - alert: node_overloaded
+          expr: '(100-(avg(rate(node_cpu_seconds_total{node="{{ NODE_NAME }}", mode="idle"}[60s]))*100)) > {{NODE_TH_MAX}}'
+          for: 1m
+        - alert: node_underloaded
+          expr: '(100-(avg(rate(node_cpu_seconds_total{node="{{ NODE_NAME }}", mode="idle"}[60s]))*100)) < {{NODE_TH_MIN}}'
+          for: 1m
+        required: true
+      scaling_rule:
+        type: string
+        description: pre-define scaling rule for VM CPU
+        required: true
+        default: |
+          # Let's say, the following block is the default scaling logic for YOUR_APPLICATION
+          if len(m_nodes) <= m_node_count and m_time_since_node_count_changed > 60:
+            if node_overloaded:
+              m_node_count+=1
+            if node_underloaded:
+              m_node_count-=1
+          # The following block will override the number of required VMs:
+          # If current time falls in one of the expected_spike_schedule and 
+          # m_node_count < min_of_spike or m_node_count > max_of_spike. 
+          now = int(time.time()) 
+          for p in spikes:
+            beginepoch = int(time.mktime(time.strptime(p['bt'],'%d-%m-%Y %H:%M:%S')))
+            endepoch = int(time.mktime(time.strptime(p['et'],'%d-%m-%Y %H:%M:%S')))
+            inspike = now > beginepoch and now < endepoch
+            m_node_count = min(max(m_node_count,p['min']),p['max']) if inspike else m_node_count

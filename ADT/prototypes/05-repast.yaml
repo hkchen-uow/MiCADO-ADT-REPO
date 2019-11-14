@@ -1,6 +1,7 @@
 # Metadata
+# ADT_Status: true
 # ADT_Type: Prototypes
-# APP_ID:05
+# ADT_Description: Repast Simphony running on the jQueuer platform (tested) repast in container at osabuoun/repast
 # APP_Name:repast
 # APP_Keywords: CloudSigma, Occopus, Jqueuer
 # APP_Deployment: VM, Docker Container
@@ -8,8 +9,6 @@
 # APP_Policies: Monitoring, Scaling
 # POLICY_keywords: deadline, jqueuer
 
-# Repast Simphony running on the jQueuer platform (tested)
-# repast in container at osabuoun/repast
 
 tosca_definitions_version: tosca_simple_yaml_1_0
 

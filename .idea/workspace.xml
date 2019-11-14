@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c211ec8-e3d8-4329-89cc-e0b0aa63224e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/METADATA_Basic_Search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ADT_Tutorial_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_example/policies/application_s_vm_schedule_scaling.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/METADATA.md" beforeDir="false" afterPath="$PROJECT_DIR$/METADATA_Advance_Search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/05-repast.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/05-repast.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/20-micado-on-cloudbroker.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/20-micado-on-cloudbroker.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT/prototypes/21-wordpress-hkn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ADT/prototypes/21-wordpress-hkn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/METADATA_Advance_Search.md" beforeDir="false" afterPath="$PROJECT_DIR$/METADATA_Advance_Search.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,37 +25,42 @@
     <session id="836273905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="6" />
-          <entry key="yaml" value="28" />
+          <entry key="html" value="1" />
+          <entry key="md" value="9" />
+          <entry key="yaml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="6" />
-          <entry key="YAML" value="28" />
+          <entry key="HTML" value="1" />
+          <entry key="Markdown" value="9" />
+          <entry key="YAML" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="370" />
+          <entry key="html" value="3" />
+          <entry key="md" value="1024" />
           <entry key="txt" value="56" />
-          <entry key="yaml" value="923" />
+          <entry key="yaml" value="1201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="370" />
+          <entry key="HTML" value="3" />
+          <entry key="Markdown" value="1024" />
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="YAML" value="923" />
+          <entry key="YAML" value="1201" />
         </counts>
       </usages-collector>
     </session>
@@ -54,59 +68,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_a_container_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/20-micado-on-cloudbroker.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="-113">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_b_container_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/21-wordpress-hkn.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_c_container_cpu_scaling.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_d_container_cpu_scaling.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/METADATA_Basic_Search.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="323">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/METADATA_Advance_Search.md">
+        <entry file="file://$PROJECT_DIR$/ADT_Tutorial_1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -114,42 +98,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_a_vm_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_b_vm_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/05-repast.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_c_vm_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="209">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_example/policies/application_d_vm_cpu_scaling.yaml">
+        <entry file="file://$PROJECT_DIR$/METADATA_Advance_Search.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="475">
+                <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -168,12 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml" />
-        <option value="$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml" />
-        <option value="$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml" />
-        <option value="$PROJECT_DIR$/ADT/prototypes/05-repast.yaml" />
-        <option value="$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml" />
-        <option value="$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml" />
         <option value="$PROJECT_DIR$/ADT/tests-demos/cqueue.yaml" />
         <option value="$PROJECT_DIR$/ADT/tests-demos/jqueuer.yaml" />
         <option value="$PROJECT_DIR$/ADT/tests-demos/nginx.yaml" />
@@ -195,7 +210,17 @@
         <option value="$PROJECT_DIR$/node_example/policies/application_b_container_cpu_scaling.yaml" />
         <option value="$PROJECT_DIR$/node_example/policies/application_c_container_cpu_scaling.yaml" />
         <option value="$PROJECT_DIR$/node_example/policies/application_d_container_cpu_scaling.yaml" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml" />
         <option value="$PROJECT_DIR$/METADATA_Advance_Search.md" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/05-repast.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/21-wordpress-hkn.yaml" />
+        <option value="$PROJECT_DIR$/ADT/prototypes/20-micado-on-cloudbroker.yaml" />
+        <option value="$PROJECT_DIR$/ADT_Tutorial_1.md" />
       </list>
     </option>
   </component>
@@ -205,11 +230,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1947" />
-    <option name="y" value="88" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,12 +258,6 @@
               <item name="ADT-REPO" type="462c0819:PsiDirectoryNode" />
               <item name="ADT" type="462c0819:PsiDirectoryNode" />
               <item name="prototypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ADT-REPO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ADT-REPO" type="462c0819:PsiDirectoryNode" />
-              <item name="ADT" type="462c0819:PsiDirectoryNode" />
-              <item name="tests-demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ADT-REPO" type="b2602c69:ProjectViewProjectNode" />
@@ -266,21 +282,38 @@
               <item name="node_example" type="462c0819:PsiDirectoryNode" />
               <item name="policies" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ADT-REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADT-REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="policy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADT-REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADT-REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="policy" type="462c0819:PsiDirectoryNode" />
+              <item name="execution" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572998407132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573732639900" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ra\ADT-REPO\node_example\policies" />
+      <recent name="C:\ra\ADT-REPO\ADT\prototypes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ra\ADT-REPO" />
     </key>
@@ -310,7 +343,10 @@
       <workItem from="1572607735645" duration="6458000" />
       <workItem from="1572860409494" duration="643000" />
       <workItem from="1572941463849" duration="12000" />
-      <workItem from="1572960539934" duration="2105000" />
+      <workItem from="1572960539934" duration="2133000" />
+      <workItem from="1573124378818" duration="4194000" />
+      <workItem from="1573465923758" duration="6631000" />
+      <workItem from="1573695821368" duration="5881000" />
     </task>
     <task id="LOCAL-00001" summary="Add metadata for code searching in Github repository">
       <created>1572742019055</created>
@@ -319,17 +355,31 @@
       <option name="project" value="LOCAL" />
       <updated>1572742019055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add metadata for code searching in Github repository">
+      <created>1573027909571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027909571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add metadata for code searching in Github repository">
+      <created>1573124436075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573124436075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9218000" />
+    <option name="totallyTimeSpent" value="25952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +394,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31879544" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12322792" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -374,41 +424,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/05-repast.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1786">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -444,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -531,6 +539,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_example/policies/application_d_container_cpu_scaling.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/METADATA_Basic_Search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="627">
+            <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_example/policies/application_a_vm_cpu_scaling.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -552,6 +577,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="739" column="21" lean-forward="true" selection-start-line="739" selection-start-column="21" selection-end-line="739" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/24-application-status.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/23-integrated-testing-solution.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_example/policies/application_d_vm_cpu_scaling.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -559,28 +597,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_example/policies/application_d_container_cpu_scaling.yaml">
+    <entry file="file://$PROJECT_DIR$/node_example/policies/application_s_vm_schedule_scaling.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="627">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/METADATA_Basic_Search.md">
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/07-FLEE.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/METADATA_Advance_Search.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <first_editor relative-caret-position="475">
+            <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/METADATA_Advance_Search.md">
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/03-MAGOS.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/04-jaamsim.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/05-repast.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/06-PALMS.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/01-evacuation-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/02-high-performance-simulation-analytics.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/20-micado-on-cloudbroker.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT/prototypes/21-wordpress-hkn.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADT_Tutorial_1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>

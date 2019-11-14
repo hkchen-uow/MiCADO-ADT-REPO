@@ -1,6 +1,7 @@
 # Metadata
+# ADT_Status: true
 # ADT_Type: Prototypes
-# APP_ID:06
+# ADT_Description: Proposed ADT to run PALMS on the jQueuer platform Since PALMS is implemented in Repast, this should be a modification to existing image and build it with a new tag ie. osabuoun/repast:palms
 # APP_Name:PALMS
 # APP_Keywords: CloudSigma, Occopus, Jqueuer
 # APP_Deployment: VM, Docker Container
@@ -8,10 +9,7 @@
 # APP_Policies: Monitoring, Scaling
 # POLICY_keywords: deadline, jqueuer
 
-# Proposed ADT to run PALMS on the jQueuer platform
-# Since PALMS is implemented in Repast, this should be
-# a modification to existing image and build it with a new tag
-# ie. osabuoun/repast:palms
+#
 
 tosca_definitions_version: tosca_simple_yaml_1_0
 

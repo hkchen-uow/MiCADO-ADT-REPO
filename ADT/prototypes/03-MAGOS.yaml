@@ -1,15 +1,13 @@
 # Metadata
+# ADT_Status: true
 # ADT_Type: Prototypes
-# APP_ID:03
+# ADT_Description: Proposed ADT to run MAGOS as a worker using the jQueuer platform Requires MAGOS in a container for testing
 # APP_Name:MAGOS
 # APP_Keywords: CloudSigma, Occopus, Jqueuer
 # APP_Deployment: VM, Docker Container
 # APP_Version: 1
 # APP_Policies: Monitoring, Scaling
-# POLICY_keywords: deadline, jqueuer
-
-# Proposed ADT to run MAGOS as a worker using the jQueuer platform
-# Requires MAGOS in a container for testing
+# POLICY_keywords: deadline scaling, jqueuer
 
 tosca_definitions_version: tosca_simple_yaml_1_0
 

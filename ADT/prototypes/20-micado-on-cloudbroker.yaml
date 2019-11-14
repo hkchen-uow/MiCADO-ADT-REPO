@@ -1,6 +1,13 @@
-# This ADT will be generated dynamically by the infrastructure
-# screen of CloudBroker, adding and removing new nodes and policies as needed.
-# See a sample CloudBroker node and sample scaling policy (PolicyKeeper format) below
+# Metadata
+# ADT_Status: true
+# ADT_Type: Prototypes
+# ADT_Description: This ADT will be generated dynamically by the infrastructure screen of CloudBroker, adding and removing new nodes and policies as needed. See a sample CloudBroker node and sample scaling policy (PolicyKeeper format) below
+# APP_Name:Micado-on-cloudbroker
+# APP_Keywords: Cloudbroker, Occopus
+# APP_Deployment: VM
+# APP_Version: 1
+# APP_Policies: Scaling
+# POLICY_keywords: deadline
 
 tosca_definitions_version: tosca_simple_yaml_1_0
 

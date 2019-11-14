@@ -1,15 +1,13 @@
 # Metadata
+# ADT_Status: true
 # ADT_Type: Prototypes
-# APP_ID:04
+# ADT_Description: JaamSim running on the jQueuer platform (tested) JaamSim in a container at gregwestm/jaamsim
 # APP_Name:jaamsim
 # APP_Keywords: CloudSigma, Occopus, Jqueuer
 # APP_Deployment: VM, Docker Container
 # APP_Version: 1
 # APP_Policies: Monitoring, Scaling
 # POLICY_keywords: deadline, jqueuer
-
-# JaamSim running on the jQueuer platform (tested)
-# JaamSim in a container at gregwestm/jaamsim
 
 tosca_definitions_version: tosca_simple_yaml_1_0
 
